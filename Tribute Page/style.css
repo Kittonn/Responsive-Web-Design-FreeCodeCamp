@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins',
-    sans-serif;
+        sans-serif;
 }
 
 #main-div {
@@ -15,7 +16,6 @@
 }
 
 #content-div {
-    /* background: #fff; */
     height: 75%;
     width: 65%;
     padding-top: 7rem;
@@ -25,11 +25,13 @@
 #title {
     font-size: 4rem;
 }
+
 #sub-title {
     margin-top: 2rem;
     font-size: 1.5rem;
     line-height: 3.25rem;
 }
+
 #image-caption {
     margin-top: 0.75rem;
 }
@@ -59,6 +61,7 @@ li {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+
 #tribute-link {
     text-decoration: none;
     color: #000;
@@ -80,20 +83,27 @@ li {
     font-size: 3rem;
     margin-bottom: 3rem;
 }
+
 #company-div {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+
 #company-card {
     background-color: #ade8f4;
     padding: 3rem;
     border-radius: 1.25rem;
+    width: 336px;
+    height: 315px;
+    margin-bottom: 2rem;
 }
 
 #company-card img {
     width: 15rem;
-    
+
 }
+
 #company-card h5 {
     text-align: center;
     margin-top: 2rem;
@@ -101,13 +111,28 @@ li {
     background: #fff;
     padding: 0.75rem;
     border-radius: 1.25rem;
-    
+
 }
 
 #div-com-img {
     height: 8rem;
     display: flex;
     align-items: center;
-    
 }
 
+@media screen and (max-width:1024px) {
+    #main-div {
+        flex-direction: column;
+        padding-top: 0;
+        justify-content: center;
+    }
+
+    #content-div {
+        height: 45%;
+        padding-top: 4rem;
+    }
+
+    #company-card {
+        margin-bottom: 2rem;
+    }
+}
