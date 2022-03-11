@@ -9,11 +9,25 @@
 </head>
 <body>
     <div id="header">
-        <img src="" alt="" id="header-img">
+        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""
+            id="header-img">
         <nav id="nav-bar">
-            <a href="" id="nav-link"></a>
-
+            <a href="#container" class="nav-link">Home</a>
+            <a href="#video" class="nav-link">video</a>
+            <a href="#form" class="nav-link">form</a>
         </nav>
+    </div>
+    <div id="container">
+        <div >
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/hYm7lRDCzOI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" name="email" placeholder="Enter your email" id="email">
+            <button id="submit" value="GET STARTED">submit</button>
+        </form>
     </div>
 </body>
 </html>
