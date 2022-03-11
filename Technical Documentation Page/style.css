@@ -1,0 +1,13 @@
+@media screen and (max-width:768px) {
+    body {
+        background-color: aqua;
+    }
+}
+#page {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
