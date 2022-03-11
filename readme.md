@@ -1,7 +1,7 @@
 # Responsive Web Design 
 
 - [x] Tribute Page
-- [ ] Survey Form
+- [x] Survey Form
 - [ ] Product Landing Page
-- [ ] Technical Documentation Page
+- [x] Technical Documentation Page
 - [ ] Personal Portfolio Webpage
