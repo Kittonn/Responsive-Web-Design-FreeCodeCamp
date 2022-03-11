@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, serif;
+}
+#head {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
+
+#description {
+    margin-top: 0.75rem;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin: 0 auto;
+    background-color: #caf0f8;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+#radio,#checkbox,#comment {
+    margin-top: 1rem;
+}
+
+textarea {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    background-color: #03045e;
+    color: white;
+}
+
+@media screen and (max-width:1300px) {
+    #survey-form {
+        max-width: 60%;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    #survey-form {
+        max-width: 100%;
+
+    }
+}
