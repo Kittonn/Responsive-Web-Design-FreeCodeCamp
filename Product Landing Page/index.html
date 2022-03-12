@@ -1,33 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <title>Product Landing Page</title>
 </head>
+
 <body>
     <div id="header">
         <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""
             id="header-img">
         <nav id="nav-bar">
-            <a href="#container" class="nav-link">Home</a>
-            <a href="#video" class="nav-link">video</a>
-            <a href="#form" class="nav-link">form</a>
+            <a href="#container" class="nav-link">Features</a>
+            <a href="#video" class="nav-link">How It Works</a>
+            <a href="#form" class="nav-link">Pricing</a>
         </nav>
     </div>
     <div id="container">
-        <div >
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/hYm7lRDCzOI"
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="">Handcrafted, home-made masterpieces</label>
+            <input type="email" name="email" placeholder="Enter your email address" id="email">
+            <button id="submit" value="GET STARTED">GET STARTED</button>
+        </form>
+        <div id="content">
+            <div id="content-section">
+                <div id="icon"><i class="fa fa-3x fa-fire"></i></div>
+                <div id="text">
+                    <h6>Premium Materials</h6>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of
+                        your purchase.
+                    </p>
+                </div>
+            </div>
+            <div id="content-section">
+                <div id="icon"> <i class="fa fa-3x fa-truck"></i></div>
+                <div id="text">
+                    <h6>
+                        Fast Shipping</h6>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide
+                        free
+                        returns if you are not satisfied.
+                    </p>
+                </div>
+            </div>
+            <div id="content-section">
+                <div id="icon"><i class="fa fa-3x fa-battery-full" aria-hidden="true"></i></div>
+                <div id="text">
+                    <h6>
+                        Quality Assurance</h6>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and
+                        test
+                        the pitch of your instrument.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="video">
+            <iframe height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <input type="email" name="email" placeholder="Enter your email" id="email">
-            <button id="submit" value="GET STARTED">submit</button>
-        </form>
+        <div id="card-section">
+            <div id="card">
+                <h3>TENOR TROMBONE</h3>
+                <h1>$600</h1>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                    <button>SELECT</button>
+            </div>
+            <div id="card">
+                <h3>TENOR TROMBONE</h3>
+                <h1>$600</h1>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                <button>SELECT</button>
+            </div>
+            <div id="card">
+                <h3>TENOR TROMBONE</h3>
+                <h1>$600</h1>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                <button>SELECT</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <h5>Copyright 2016, Original Trombones</h5>
     </div>
 </body>
+
 </html>
