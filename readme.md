@@ -1,10 +1,11 @@
-# Responsive Web Design 
+# Responsive Web Design
+
+*Projects for FreeCodeCamp Certificate*
 
 - [x] Tribute Page
 - [x] Survey Form
 - [x] Product Landing Page
 - [x] Technical Documentation Page
-- [ ] Personal Portfolio Webpage
+- [x] Personal Portfolio Webpage
 
-*อีก 2 อันร่าง html แล้วเหลือ css*
 ![Certificate](./Certificate/cert.JPG)
